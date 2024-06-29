@@ -8,6 +8,7 @@ export default defineConfig({
     'source/:page': 'destination/:page'
   },
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: 'https://avatars.githubusercontent.com/u/114594856?s=200&v=4',
     search: {
@@ -20,23 +21,29 @@ export default defineConfig({
       { text: '项目', link: '/project/' },
     ],
 
-    sidebar: [
+    sidebar: {
+      "/":[
       {
         text: '项目',
         items: [
           { text:'主页' , link: '/project/'},
           { text: 'SMSboom-HXCZ', link: '/project/smsboom-hxcz' },
-          { text:'MiniMinecraftMod-Copier', link: '/project/MiniMinecraftMod-Copier'}
+          { text:'MiniMinecraftMod-Copier', link: '/project/MiniMinecraftMod-Copier'},
+          { text:'Ollama-Services-Forwarding', link: '/project/ollama-services-forwarding'},
+          { text:'Ollama-Services-Forwarding', link: '/project/ollama-services-forwarding'},
         ]
-      },
-      {
+      }],
+      "/LLQQNT/":[{
         text: 'LLQQNT',
         items: [
           { text: '主页', link: '/LLQQNT/' },
-          { text: '插件列表', link: '/LLQQNT/plugin' }
+          { text: '安装LLQQNT', link: '/LLQQNT/install'},
+          { text: '安装LiteLoaderPlugin', link: '/LLQQNT/install_plugin'},
+          { text: '插件列表', link: '/LLQQNT/plugin' },
+          { text: '共同开发LLQQNT插件商店', link: '/LLQQNT/plugin-store'}
         ]
-      },
-    ],
+      }],
+    },
 
     socialLinks: [
        { icon: 'github', link: 'https://github.com/SuperLinkStudio' }

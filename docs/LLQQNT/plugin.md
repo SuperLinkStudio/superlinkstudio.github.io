@@ -48,3 +48,4 @@
 | Eticeweng/LiteLoaderQQNT-Editor-Auto-Script | main | <https://github.com/Eticeweng/LiteLoaderQQNT-Editor-Auto-Script/tree/main> | 为QQNT编辑区域添加拦截格式化字符串指令的功能，将对应匹配的指令字符串替换为对应指令的文字输出或者执行代码 |
 | Eticeweng/LiteLoaderQQNT-Link-Preview | master | <https://github.com/Eticeweng/LiteLoaderQQNT-Link-Preview/tree/master> | 为聊天区域中的所有链接添加其网页标题和图标，适用于所有http或https协议的链接 |
 | liaozhangsheng/LiteLoaderQQNT-Translate | master | <https://github.com/liaozhangsheng/LiteLoaderQQNT-Translate/tree/master> | 翻译 |
+| Zard19991/LiteLoaderQQNT-Plugin-Plugin-Store | master | <https://github.com/Zard19991/LiteLoaderQQNT-Plugin-Plugin-Store/tree/master> | LiteLoader插件 \| 插件商店 |

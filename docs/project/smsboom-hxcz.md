@@ -1,5 +1,7 @@
 # SMSBoom -  SuperLinkStudio焕新重制版
 
+> 
+
 ## 免责声明
 > [!CAUTION]
 > 1. 使用此程序请遵守当地的法律法规，禁止滥用、恶意使用，**触犯法律所造成的问题均由使用者承担**。  
@@ -32,7 +34,7 @@
 
 #### Step1. 下载 *.py 文件
 
- 请移步到项目的 [release](https://github.com/SuperLinkStudio/SMSboob-HXCZ/releases) 下载
+ 请移步到项目的 [release](https://github.com/SuperLinkStudio/SMSboom-HXCZ/releases) 下载
 
  > 若遇到国内网络环境下载不下来,请参见 [https://github.do/](https://github.do/) 等加速镜像.
 
@@ -97,7 +99,7 @@ git clone https://github.com/AdminWhaleFall/SMSBoom.git/
 
 2. 配置虚拟环境 Deploy Virtual Envirement  
 
-**前提条件:** 请确保自己的电脑有 `python3.x` 的环境,推荐使用 `3.8` 及以上!  
+**前提条件:** 请确保自己的电脑有 `python3.x` 的环境,推荐使用 `3.9` 及以上!  
 
 #### 使用 pipenv
 
@@ -131,6 +133,9 @@ python smsboom.py  # linux
 pip install -r requirements.txt # 仅使用轰//炸
 pip install -r requirements-dev.txt # 使用 webui
 ```
+:::tip pip换源命令
+PIP换清华源：`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+:::
 
 2. 尝试运行 smsboom.py
 
@@ -139,41 +144,6 @@ python smsboom.py
 ```
 
 若无报错，输出帮助信息，则说明环境已经正确安装。
-
-#### 使用 Docker 运行
-
-##### 方式一: 一键运行
-
-```shell
-docker run --rm lanqsh/smsboom run -t 1 -p {PHONE} -i 1
-```
-
-##### 方式二: 自建镜像
-
-**前提条件:** 请确保当前环境已安装 [Docker](https://docs.docker.com/get-docker/).
-
-1. 构建镜像
-
-```shell
-docker build -t whalefell/smsboom .
-```
-
-2. 尝试运行
-
-```shell
-docker run --rm whalefell/smsboom:latest --help
-
-Usage: smsboom.py [OPTIONS] COMMAND [ARGS]...
-
-Options:
-  --help  Show this message and exit.
-
-Commands:
-  asyncrun  以最快的方式请求接口(真异步百万并发)
-  onerun    单线程(测试使用)
-  run       传入线程数和手机号启动轰炸,支持多手机号
-  update    从 github 获取最新接口
-```
 
 #### 运行  
 

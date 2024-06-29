@@ -2,3 +2,4 @@
 > LLQQNT插件下载请打开**LLQQNT目录**
 * [SMSboom-HXCZ](./smsboom-hxcz.md)
 * [MiniMinecraftMod-Copier](./MiniMinecraftMod-Copier.md)
+* [Ollama-Services-Forwarding](./ollama-services-forwarding.md)
