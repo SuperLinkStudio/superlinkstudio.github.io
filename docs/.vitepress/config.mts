@@ -30,7 +30,7 @@ export default defineConfig({
           { text: 'SMSboom-HXCZ', link: '/project/smsboom-hxcz' },
           { text:'MiniMinecraftMod-Copier', link: '/project/MiniMinecraftMod-Copier'},
           { text:'Ollama-Services-Forwarding', link: '/project/ollama-services-forwarding'},
-          { text:'Ollama-Services-Forwarding', link: '/project/ollama-services-forwarding'},
+          { text:'HAPI', link: '/project/HAPI.md'},
         ]
       }],
       "/LLQQNT/":[{
