@@ -1,2 +1,2 @@
-# SuperLinkStudio's Website
-> 站点暂时关闭，请访问 [https://superlinkstudio.top](https://superlinkstudio.top)
+# Project Docs
+如果在GitHub Pages看到此页面，说明本网站在编译时遇到了问题，请稍后等一等...
